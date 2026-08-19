@@ -27,7 +27,7 @@ function displayAlerts(data) {
         const listItem = document.createElement("li")
         listItem.textContent = alert.properties.headline
         alertsList.appendChild(listItem)
-    });
+    })
     alertsDisplay.appendChild(alertsList)
 }
 
