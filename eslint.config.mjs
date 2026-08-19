@@ -9,6 +9,7 @@ const customGlobals = {
 export default [
   {
     languageOptions: { globals: customGlobals },
+    rules: { "semi": ["error", "never"] }
   },
   pluginJs.configs.recommended,
 ];
